@@ -58,7 +58,7 @@ java -jar target\hello-world.jar
 ```
 gradlew clean compileJava build
 ```
-* Execute the jar using following command
+* Execute the jar using following commands
 ```
-java -jar build\libs\hello-world.jar
+java -jar build\libs\hello-orld.jar
 ```
